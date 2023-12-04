@@ -46,6 +46,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 
+
 }
 .flex-cont img{
     width: 100%;
@@ -72,3 +73,25 @@
     box-shadow: 0 0 10px 0  rgba(128, 128, 128, 0.514) inset;
     border-radius: 7px;
 }
+.navs{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:800px){
+.flex-cont{
+    width: 100%;
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+    
+}
+        
+ 
